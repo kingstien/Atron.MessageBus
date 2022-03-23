@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<Authors>kingstien</Authors>
+		<PackageProjectUrl>https://github.com/kingstien/Atron.MessageBus</PackageProjectUrl>
+		<Copyright>Copyright (c) kingstien</Copyright>
+		<Description>A simple in process mediator</Description>
+		<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+		<PackageTags>mediator;eventbus;messagebus</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<AssemblyVersion>1.0.0</AssemblyVersion>
+		<FileVersion>1.0.0.0</FileVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+</Project>
