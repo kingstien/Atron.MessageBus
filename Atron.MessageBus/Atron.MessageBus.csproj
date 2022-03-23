@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
@@ -15,8 +15,9 @@
 		<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
 		<PackageTags>mediator;eventbus;messagebus</PackageTags>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<AssemblyVersion>1.0.0</AssemblyVersion>
-		<FileVersion>1.0.0.0</FileVersion>
+		<PackageVersion>1.0.1</PackageVersion>
+		<AssemblyVersion>1.0.1</AssemblyVersion>
+		<FileVersion>1.0.1.0</FileVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
