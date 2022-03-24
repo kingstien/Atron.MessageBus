@@ -4,5 +4,5 @@ A simple in process mediator for .NET
 ```cs
 var bus = new MessageBus();
 bus.Subscribe<string>(OnStringReceived);
-bus.Publish("hello");
+await bus.PublishAsync("hello");
 ```
